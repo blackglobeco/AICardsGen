@@ -6,13 +6,12 @@ class CommandLine:
     _predefined_cards = ["AMEX", "Discover", "MasterCard", "Visa"]
     _predefined_line = '----------------------------------------------------------------------\n' * 2
     _predefined_file_start = '======================================================================\n' * 1
-    _predefine_warning = 'Warning: The Python tool for creating valid credit cards is intended for educational\n' \
-                         'purposes only. Any use of this tool for illegal or fraudulent activities is strictly\n' \
-                         'prohibited and may result in severe legal consequences. The tool generates credit card\n' \
-                         'numbers that may be valid, but it is not intended to be used for making actual purchases\n' \
-                         'or transactions. The creator of this tool is not responsible for any illegal or\n' \
+    _predefine_warning = 'Warning: The AI Cards Generator tool for creating valid credit cards is intended for internal\n' \
+                         'use purposes only. Any use of this tool for illegal or fraudulent activities is strictly\n' \
+                         'prohibited and may result in severe legal consequences. The tool generates debit / credit card\n' \
+                         'details that may be valid. The creator of this tool is not responsible for any illegal or\n' \
                          'unauthorized use of the tool. Use at your own risk and discretion\n\n'
-    _predefined_details = '\nGit: https://github.com/Anonym0usWork1221/Credit-Cards-Maker\n'
+    _predefined_details = '\nPowered By Black Globe \n'
 
     _args = None
 
